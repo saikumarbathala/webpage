@@ -3,12 +3,12 @@ pipeline {
 
     environment {
         // మీ Docker Hub username మార్చుకోండి
-        DOCKER_IMAGE = "yourdockerhubuser/springboot-demo"
+        DOCKER_IMAGE = "saikumarbathala/springboot-demo"
         // Jenkins లో save చేసిన credentials ID లు
         DOCKER_CREDS  = "dockerhub-credentials"
         EC2_SSH_CREDS = "ec2-ssh-key"
         // మీ EC2 public IP మార్చుకోండి
-        EC2_HOST      = "ec2-user@YOUR_EC2_IP"
+        EC2_HOST      = "65.1.1.129"
     }
 
     stages {
