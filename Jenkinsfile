@@ -8,7 +8,7 @@ pipeline {
         DOCKER_CREDS  = "dockerhub-credentials"
         EC2_SSH_CREDS = "ec2-ssh-key"
         // మీ EC2 public IP మార్చుకోండి
-        EC2_HOST      = "65.1.1.129"
+        EC2_HOST      = "15.206.124.135"
     }
 
     stages {
