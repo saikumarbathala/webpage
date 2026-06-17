@@ -18,7 +18,6 @@ pipeline {
         // ────────────────────────────────────────
         stage('Checkout') {
             steps {
-                echo "📥 Code checkout చేస్తున్నాం..."
                 checkout scm https://github.com/saikumarbathala/webpage.git
             }
         }
