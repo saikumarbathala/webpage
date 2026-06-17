@@ -18,7 +18,7 @@ pipeline {
         // ────────────────────────────────────────
         stage('Checkout') {
             steps {
-                checkout scm https://github.com/saikumarbathala/webpage.git
+                checkout scm
             }
         }
 
